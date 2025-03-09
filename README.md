@@ -32,6 +32,7 @@ cd Sustainability_Tracker
 python -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 
+#**Backend**
 cd backend
 
 # Install dependencies
@@ -43,6 +44,7 @@ python manage.py migrate
 # Run the server
 python manage.py runserver
 
+#**Frontend**
 
 Open a new terminal
 
